@@ -1,0 +1,7 @@
+{
+  "name": "pm2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "David Oliveira <davidstna21@gmail.com>",
+  "license": "MIT"
+}
