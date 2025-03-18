@@ -1,6 +1,7 @@
 const http = require('http');
 
 http.createServer((req, res) => {
+    console.log(new Date())
     res.write(`${new Date()}: ${process.pid}`);
     res.end();
-}).listen(3001);
+}).listen(process.env.PORT || 3001);
